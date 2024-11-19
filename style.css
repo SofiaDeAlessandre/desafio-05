@@ -8,11 +8,18 @@
   --primer-color: rgb(237, 236, 233);
   --segundo-color: rgb(239, 107, 33);
   --tercer-color: rgb(119, 85, 72);
+  --cuarto-color: rgb(227, 216, 209);
+  --quinto-color: rgb(152, 127, 116);
+  --sexto-color: rgb(83, 186, 213);
+  --septimo-color: rgb(239, 71, 82);
+  --octavo-color: rgb(217, 178, 59);
 }
 
 body {
   background-color: var(--primer-color);
   margin: 10px;
+  font-family: Verdana, Arial, sans-serif;
+  color: var(--quinto-color);
 }
 
 .image {
@@ -23,9 +30,59 @@ nav {
   background-color: var(--primer-color);
 }
 
-li {
+.nav-list{
  display: inline;
 }
+
 a {
 color: var(--segundo-color);
+}
+
+.mt {
+  margin-top: 10px;
+}
+h1 {
+  color: var(--tercer-color);
+}
+
+h2 {
+  color: var(--cuarto-color);
+  background-color: var(--tercer-color);
+}
+
+.ul-seccion1 {
+ list-style-type:disc;
+ padding-left: 20px;
+}
+
+.strong {
+  color: var(--tercer-color);
+}
+
+.sexto-color {
+  color: var(--sexto-color);
+}
+
+.septimo-color {
+  color: var(--septimo-color);
+}
+
+.texto-resaltado {
+  font-weight: bold;
+}
+
+.h2 {
+  color: var(--octavo-color);
+}
+ol {
+  padding-left: 20px;
+}
+
+.ul-ol {
+  margin-left: 40px;
+}
+
+span {
+  color: var(--segundo-color);
+  text-decoration: underline;
 }
